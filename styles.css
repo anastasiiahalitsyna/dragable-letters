@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#inputText {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#output {
+    margin-top: 20px;
+    min-height: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+.selected {
+    color: red;
+}
+
+.draggable {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+.selection-box {
+    position: absolute;
+    border: 1px dashed #000;
+    pointer-events: none;
+}
